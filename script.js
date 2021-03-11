@@ -11,10 +11,10 @@ $(document).ready(function() {
         loopTop: false,
         css3: true,
         navigation: {
-            'textColor': '#000',
-            'bulletsColor': '#000',
+            'textColor': '#fff',
+            'bulletsColor': '#fff',
             'position': 'right',
-            'tooltips': ['section1', 'section2', 'section3', 'section4']
+            'tooltips': ['top', 'about', 'how to', 'next step']
         },
        	normalScrollElements: null,
         normalScrollElementTouchThreshold: 5,
