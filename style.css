@@ -26,6 +26,7 @@
 
 #page1 {
   background: linear-gradient(#e66465, #40007c);
+  animation: huerotator 10s infinite;
 }
 
 #page1 h1 {
@@ -38,12 +39,32 @@
 
 #page2 {
   background: linear-gradient(#40007c, #d2ad75);
+  animation: huerotator 10s infinite;
 }
 
 #page3 {
   background: linear-gradient(#e66465, #40007c);
+  animation: huerotator 10s infinite;
 }
 
 #page4 {
   background: linear-gradient(#e66465, #40007c);
+  animation: huerotator 10s infinite;
+}
+
+@keyframes huerotator {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    -webkit-filter: hue-rotate(65deg);
+    filter: hue-rotate(65deg);
+  }
+
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
 }
