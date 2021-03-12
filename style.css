@@ -9,6 +9,16 @@
   src: url("fonts/evolveBold.otf");
 }
 
+#page4 iframe {
+  max-width: 800px;
+  max-height: 500px;
+  width: 80vw;
+  height: 50vh;
+  display: block;
+  ;
+  margin: 0 auto;
+}
+
 .section {
   width: 100vw;
   height: 100vh;
