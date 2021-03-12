@@ -276,25 +276,25 @@ hr {
 
 .div5 {
   grid-area: 1 / 2 / 2 / 4;
-  padding: 10px 0 0 50px;
+  padding: 8px 0 0 50px;
   color: #fff;
 }
 
 .div6 {
   grid-area: 2 / 2 / 3 / 4;
-  padding: 10px 0 0 50px;
+  padding: 8px 0 0 50px;
   color: #fff;
 }
 
 .div7 {
   grid-area: 3 / 2 / 4 / 4;
-  padding: 10px 0 0 50px;
+  padding: 8px 0 0 50px;
   color: #fff;
 }
 
 .div8 {
   grid-area: 4 / 2 / 5 / 4;
-  padding: 10px 0 0 50px;
+  padding: 8px 0 0 50px;
   color: #fff;
 }
 
@@ -352,6 +352,10 @@ hr {
 
   .text p {
     padding: 0;
+  }
+
+  .mobile {
+    display: none;
   }
 
 }
