@@ -26,7 +26,7 @@
   /* background-color: #fff; */
 }
 
-#page4 iframe {
+#page5 iframe {
   max-width: 800px;
   max-height: 500px;
   width: 80vw;
@@ -161,6 +161,11 @@
 }
 
 #page5 {
+  background: linear-gradient(#e66465, #40007c);
+  animation: huerotator 10s infinite;
+}
+
+#page6 {
   background: linear-gradient(#e66465, #40007c);
   animation: huerotator 10s infinite;
 }
