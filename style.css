@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-size: 16px;
+  font-family: sans-serif;
 }
 
 @font-face {
@@ -276,26 +277,34 @@ hr {
 
 .div5 {
   grid-area: 1 / 2 / 2 / 4;
-  padding: 8px 0 0 50px;
+  padding: 12px 0 0 50px;
   color: #fff;
 }
 
 .div6 {
   grid-area: 2 / 2 / 3 / 4;
-  padding: 8px 0 0 50px;
+  padding: 12px 0 0 50px;
   color: #fff;
 }
 
 .div7 {
   grid-area: 3 / 2 / 4 / 4;
-  padding: 8px 0 0 50px;
+  padding: 12px 0 0 50px;
   color: #fff;
 }
 
 .div8 {
   grid-area: 4 / 2 / 5 / 4;
-  padding: 8px 0 0 50px;
+  padding: 12px 0 0 50px;
   color: #fff;
+}
+
+.div5,
+.div6,
+.div7,
+.div8,
+.mobile {
+  font-family: "EvolveLight";
 }
 
 #page3 .wrapper {
