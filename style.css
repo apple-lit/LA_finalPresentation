@@ -244,6 +244,19 @@ hr {
   /* background-color: #fff; */
 }
 
+#page3 .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.world-text {
+  text-align: center;
+  color: #fff;
+  font-family: 'Sawarabi Gothic',
+    sans-serif;
+}
+
 @media all and (min-width:480.1px) {
   .sp_br {
     display: none;

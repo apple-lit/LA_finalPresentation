@@ -14,7 +14,7 @@ $(function () {
       'textColor': '#fff',
       'bulletsColor': '#fff',
       'position': 'right',
-      'tooltips': ['top', 'about', 'how to', 'game', 'next step']
+      'tooltips': ['top', 'about','world', 'how to', 'game', 'next step']
     },
     normalScrollElements: null,
     normalScrollElementTouchThreshold: 5,
