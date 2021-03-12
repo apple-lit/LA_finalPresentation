@@ -253,8 +253,7 @@ hr {
 .world-text {
   text-align: center;
   color: #fff;
-  font-family: 'Sawarabi Gothic',
-    sans-serif;
+  font-family: 'Sawarabi Gothic', sans-serif;
 }
 
 @media all and (min-width:480.1px) {
