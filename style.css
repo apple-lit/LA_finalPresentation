@@ -180,6 +180,23 @@
   animation: huerotator 5s infinite;
 }
 
+#page7 {
+  background: linear-gradient(#e66465, #40007c);
+  animation: huerotator 5s infinite;
+}
+
+#page8 {
+  background: linear-gradient(#e66465, #40007c);
+  animation: huerotator 5s infinite;
+}
+
+#page9 {
+  background: linear-gradient(#e66465, #40007c);
+  animation: huerotator 5s infinite;
+}
+
+
+
 @keyframes huerotator {
   0% {
     -webkit-filter: hue-rotate(0deg);
@@ -326,6 +343,19 @@ hr {
   text-align: center;
   color: #fff;
   font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+#page9 .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankyou-text {
+  display: block;
+  font-family: "EvolveLight";
+  letter-spacing: 10px;
+  color: #fff;
 }
 
 @media all and (min-width:480.1px) {
