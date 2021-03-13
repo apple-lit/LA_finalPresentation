@@ -216,7 +216,7 @@
 
 .sectionTitle {
   font-family: "Evolve";
-  font-size: 7rem;
+  font-size: 10vw;
   color: #daff73;
   text-shadow: rgba(255, 255, 255, 0.5) 0 0 80px;
 }
@@ -358,6 +358,72 @@ hr {
   color: #fff;
 }
 
+table {
+  width: 80vw;
+  border-collapse: collapse;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  display: block;
+}
+
+.usertesttitle,
+.sp_sp {
+  font-family: "Evolve";
+  letter-spacing: 20px;
+}
+
+.usertest-title-table {
+  width: 100vw;
+  display: block;
+}
+
+
+
+table th,
+table td {
+  text-align: center;
+  border: solid 1px #fff;
+  color: white;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+
+
+table .good {
+  font-family: "Evolve";
+  background-image: linear-gradient(40deg, #0d02a4 0%, #24e91d 74%);
+}
+
+table .more {
+  font-family: "Evolve";
+  background-image: linear-gradient(40deg, #1000ef 0%, #5f0075 74%);
+}
+
+table td {
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+td {
+  width: 40vw;
+  height: 100px;
+}
+
+.usertest-title-table th {
+  width: 80vw;
+  display: block;
+}
+
+.usertest-wrapper {
+  width: 80vw;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media all and (min-width:480.1px) {
   .sp_br {
     display: none;
@@ -400,10 +466,34 @@ hr {
 
   .text p {
     padding: 0;
+    line-height: 1.5;
   }
 
   .mobile {
     display: none;
+  }
+
+  table td {
+    font-size: 3vw;
+  }
+
+  td {
+    height: 80px;
+  }
+
+  td b {
+    font-size: 3vw;
+  }
+
+  span.sp_sp {
+    display: none;
+  }
+
+  table th,
+  table td {
+
+    padding: 20px 10px;
+
   }
 
 }
