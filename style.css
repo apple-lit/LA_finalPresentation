@@ -342,10 +342,11 @@ hr {
 .world-text {
   text-align: center;
   color: #fff;
-  font-family: 'Sawarabi Gothic', sans-serif;
+  font-family:
 }
 
-#page9 .wrapper {
+#page9 .wrapper,
+#page8 .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -356,6 +357,14 @@ hr {
   font-family: "EvolveLight";
   letter-spacing: 10px;
   color: #fff;
+  text-align: center;
+}
+
+.review-text {
+  display: block;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  color: #fff;
+  text-align: center;
 }
 
 table {
@@ -379,7 +388,10 @@ table {
   display: block;
 }
 
-
+table b,
+.review-text b {
+  color: rgb(255, 254, 172);
+}
 
 table th,
 table td {
@@ -423,6 +435,89 @@ td {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+.balloon {
+  font-family: 'Sawarabi Gothic', sans-serif;
+  position: relative;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5em 0;
+  padding: 20px 10px;
+  min-width: 120px;
+  width: 80vw;
+  max-width: 100%;
+  color: #fff;
+  border: outset 1px rgba(255, 255, 255, 0.5);
+  border-top: none;
+  border-bottom: none;
+  box-sizing: border-box;
+}
+
+.balloon-last {
+  font-family: 'Sawarabi Gothic', sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5em 0;
+  padding: 20px 10px;
+  min-width: 120px;
+  width: 80vw;
+  max-width: 100%;
+  color: #fff;
+  border-top: none;
+  border: solid 1px rgba(255, 251, 40, 0.5);
+  box-sizing: border-box;
+}
+
+.balloon-container {
+  width: 80vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.balloon:before {
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  margin-left: -15px;
+  border: 12px solid transparent;
+  /* border-top: 12px solid #FFF; */
+  z-index: 2;
+}
+
+.balloon:after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  margin-left: -17px;
+  border: 14px solid transparent;
+  border-top: 14px solid #fff;
+  z-index: 1;
+}
+
+.balloon p {
+  margin: 0;
+  padding: 0;
+}
+
+#page9 small {
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  font-family: "EvolveLight";
+}
+
 
 @media all and (min-width:480.1px) {
   .sp_br {
@@ -494,6 +589,22 @@ td {
 
     padding: 20px 10px;
 
+  }
+
+  .balloon,
+  .balloon-last {
+    height: 50px;
+
+  }
+
+  .balloon p,
+  .balloon-last p,
+  .review-text {
+    font-size: 3vw;
+  }
+
+  #page9 small {
+    font-size: 1.5vw;
   }
 
 }
